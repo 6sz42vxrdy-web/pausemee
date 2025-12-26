@@ -8,7 +8,7 @@ const Footer = () => {
           <a href="mailto:support@pauseme.app" className="transition-colors hover:text-foreground">
             support@pauseme.app
           </a>
-          <a href="#" className="transition-colors hover:text-foreground">
+          <a href="/privacy" className="transition-colors hover:text-foreground">
             Privacy Policy
           </a>
         </div>
