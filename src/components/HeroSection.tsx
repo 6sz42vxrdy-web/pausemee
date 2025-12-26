@@ -8,7 +8,7 @@ const HeroSection = () => {
         <img
           src={appIcon}
           alt="PauseMe app icon"
-          className="mb-4 h-16 w-16 rounded-[22%] shadow-sm md:h-20 md:w-20"
+          className="mb-4 h-20 w-20 rounded-[22%] shadow-lg md:h-24 md:w-24"
         />
         
         <h1 className="mb-4 text-lg font-medium tracking-tight text-foreground md:text-xl">
