@@ -1,9 +1,16 @@
 import heroPhone from "@/assets/hero-phone.png";
+import appIcon from "@/assets/app-icon.png";
 
 const HeroSection = () => {
   return (
     <section className="container py-16 md:py-24">
       <div className="flex flex-col items-center text-center">
+        <img
+          src={appIcon}
+          alt="PauseMe app icon"
+          className="mb-4 h-16 w-16 rounded-[22%] shadow-sm md:h-20 md:w-20"
+        />
+        
         <h1 className="mb-4 text-lg font-medium tracking-tight text-foreground md:text-xl">
           PauseMe
         </h1>
