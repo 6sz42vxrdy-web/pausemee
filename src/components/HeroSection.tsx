@@ -1,4 +1,4 @@
-import PhoneMockup from "./PhoneMockup";
+import heroPhone from "@/assets/hero-phone.png";
 
 const HeroSection = () => {
   return (
@@ -17,7 +17,11 @@ const HeroSection = () => {
         </p>
 
         <div className="mb-12">
-          <PhoneMockup />
+          <img
+            src={heroPhone}
+            alt="PauseMe app showing a grounded perspective on racing thoughts"
+            className="mx-auto w-[280px] rounded-3xl shadow-lg md:w-[320px]"
+          />
         </div>
 
         <a
